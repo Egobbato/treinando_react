@@ -1,5 +1,5 @@
-import React from "react";
 import Cabecalho from "./components/Header";
+import "./styles.css";
 
 function App() {
   return (
