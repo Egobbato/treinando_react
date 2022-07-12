@@ -1,5 +1,5 @@
 import { Header } from "./styled";
-import SKALE from "../../assets/img/SKALE.png";
+import logo from "../../assets/img/logo.png";
 import lupa from "../../assets/icon/lupa.png";
 
 function Cabecalho() {
@@ -7,7 +7,7 @@ function Cabecalho() {
     <Header>
       <nav>
         <div className="logo">
-          <img src={SKALE} alt="skale"></img>
+          <img src={logo} alt="skale"></img>
         </div>
         <div className="input">
           <img src={lupa} alt="lupa"></img>
