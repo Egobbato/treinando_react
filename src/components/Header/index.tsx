@@ -14,7 +14,13 @@ function Cabecalho() {
           <img src={logo} alt="skale"></img>
         </div>
         <div className="input">
-          <img className="input-input_img" src={lupa} alt="lupa"></img>
+          <img
+            className="input-input_img"
+            src={lupa}
+            alt="lupa"
+            width="20px"
+            height="20px"
+          ></img>
 
           <input
             className="input-input"

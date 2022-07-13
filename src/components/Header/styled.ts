@@ -13,13 +13,17 @@ export const Header = styled.header`
     justify-content: space-around;
     height: 100%;
   }
+  .input {
+    display: flex;
+  }
 
   input {
-    width: 660px;
+    width: 666px;
     height: 48px;
     background: #fafafa;
     border-radius: 16px;
     font-family: "Courier New", Courier, monospace;
+    display: flex;
   }
 
   li {
