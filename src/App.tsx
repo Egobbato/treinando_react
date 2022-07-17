@@ -1,5 +1,6 @@
 import Cabecalho from "./components/Header";
 import { Menu } from "./components/Menu";
+import BoxInicial from "./components/Box_inicial";
 import "./styles.css";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Cabecalho />
       <Menu />
+      <BoxInicial />
     </div>
   );
 }
