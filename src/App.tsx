@@ -1,6 +1,7 @@
 import Cabecalho from "./components/Header";
 import { Menu } from "./components/Menu";
 import BoxInicial from "./components/Box_inicial";
+import BoxSecao from "./components/Box_secao";
 import "./styles.css";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Cabecalho />
       <Menu />
       <BoxInicial />
+      <BoxSecao />
     </div>
   );
 }
