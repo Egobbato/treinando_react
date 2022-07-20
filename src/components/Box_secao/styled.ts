@@ -3,17 +3,22 @@ import styled from "styled-components";
 export const Secao = styled.div`
   .secao {
     background-color: #ffdbca;
-    padding: 63px 0 0 83px;
+    padding: 63px 50px 0 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   .imagem_secao {
-    width: 308px;
-    height: 270.15px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 37px;
   }
 
   button {
-    width: 308px;
-    height: 48.85px;
+    width: 100%;
+    height: 100%;
     text-align: center;
     background: #00afad;
     border-radius: 0px 0px 8px 8px;
